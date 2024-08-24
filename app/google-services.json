@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21065538116",
+    "project_id": "ejemplochatreto2",
+    "storage_bucket": "ejemplochatreto2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21065538116:android:3bf90a3cfc1b402883fa11",
+        "android_client_info": {
+          "package_name": "com.example.ejemplochatreto2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdQYyle8-FFbScTonkMO4Ix_5lgeXA48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Base.Theme.EjemploChatReto2"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/logo2"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/login"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweather_sans"
+        android:text="Inicio de sesión"
+        android:textColor="@color/md_theme_secondary"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/login_email_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEditTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="password_toggle"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/login_password_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESIÓN"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/md_theme_primary"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/md_theme_secondary"
+        android:layout_marginTop="10dp"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
